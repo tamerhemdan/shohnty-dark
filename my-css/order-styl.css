@@ -1,0 +1,88 @@
+.stepwizard-step p {
+    margin-top: 0px;
+    color:#666;
+}
+.stepwizard-row {
+    display: table-row;
+}
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;
+    filter: alpha(opacity=100) !important;*/
+}
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity:1 !important;
+    color:#bbb;
+}
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+  .order-stepper{
+      background-image: url(../img-shohnty/image15.jpg);
+  background-size: cover;
+  background-position: center;
+    margin-top: -20px;   
+      }  
+.allOrder-stepper{
+     padding: 80px 0;
+   background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,0.9));
+
+}
+.allOrder-stepper h3{
+ color: #E53004; 
+}
+.allOrder-stepper p,.control-label{
+ color: #fff; 
+}
+    .panel-primary>.panel-heading {
+    background-color:  #E53004;
+    border-color:  #E53004;
+}
+ .panel-primary {
+    border-color: #E53004;
+   background-color: transparent;
+}
+ .navbar-brand {
+  
+     height: auto; 
+    padding: 0px 15px;
+      }   .form-control{
+        height: 45px;
+        color: #ddd;
+    
+      }
+.form-control:focus {
+background-color: rgba(0,0,0,0.2);
+}
+      .priceData p{
+        font-size: 1rem;
+      }
+      .priceData span{
+        color: red;
+        font-size: 1.3rem;
+      }

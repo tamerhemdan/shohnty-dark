@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title>home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Changa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="my-css/style.css">
+    <link rel="stylesheet" href="my-css/midea-query-style.css">
+  </head>
+  <body>
+<!--    start mian header-->
+    <section class="main-header">
+      <div class="side-logo"></div>
+      <div class="all-main-header">
+        <div class="main-nav">
+          <div class="top-bar">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <nav class="nav">
+                    <a class="nav-link" href="#">
+                      <span><i class="fas fa-envelope"></i></span>  أخر الأخبار
+                    </a>
+                    <a class="nav-link" href="#">
+                      <span><i class="fas fa-user"></i></span> وظائف 
+                    </a>
+                  </nav>
+                </div>
+                <div class="col-6">
+                  <nav class="nav  justify-content-end">
+                    <a class="nav-link active" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+                    <a class="nav-link searchGo" href="#"><i class="fas fa-search"></i></a>
+                    <div class="top-bar-btn">
+                      <a class="nav-link btn" href="calcuelat.html"><i class="fas fa-calculator"></i> حاسبة الشحن </a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <!--end top nav icon-->
+                    <!--start search box-->
+          <div class="search-box">
+            <div class="container">
+              <div class="searsh-baxContant">
+                <form class="searshForm">
+                  <input type="text" placeholder="إبحث هنا ...">
+                  <button><i class="fas fa-search"></i></button>
+                </form>
+                <div class="btnSearsh-close">
+                  <div class="btn-close">
+                  <a href="#" class="closs-search">&times;</a>
+                  </div>   
+                </div>
+              </div>
+            </div>
+          </div>
+                  <!--end search box-->
+                  <!--start nav bar for larg screen-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light  my-nav">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="img/hama-logo.png" style="width: 80px">
+              </a>  
+              <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">الرئيسيه </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">إتصل بنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">خدماتنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> فروعنا </a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </nav>
+        </div>
+          <!--end nav bar for larg screen-->
+            <!-- start header caption-->
+        <div class="my-header">
+          <div class="container">
+            <div class="all-titl">
+              <div class="titl-texst">
+                <h1 class="haeder-title">مرحبا بكم فى <span style="color:#E53004;">شحنتى</span></h1> 
+                <h2>لخدمات النقل عبر البر والبحر والجو. مع شحنتى سوف نحميك من المخاطر ونتحمل معك المسئوليه</h2>  
+              </div>
+              <div class="title-btn" style="">
+                <a href="login.html" class="btn btn-sign">تسجيل الدخول</a>
+                <a href="#" class="btn btn-signA">سجل معنا</a>
+              </div>
+            </div>
+          </div>     
+        </div>
+<!--
+        <div class="side-logo-img">
+          <img src="img-shohnty/image2.png">
+          <img src="img-shohnty/image4.png" style="width: 500px;
+              margin-right: -170px;
+              margin-top: 74px;">
+        </div>
+-->
+      </div>
+    </section>
+            <!-- end header caption-->
+            <!--start nav bar for small screen-->
+    <span class="mnue-btn" onclick="openNav()">
+      <i class="fas fa-bars"></i>
+    </span>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="navbar-brand" href="#">
+        <img src="img/hama-logo.png" style="width: 80px">
+      </a>
+      <ul class="navbar-nav">                
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">الرئيسيه </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">من نحن </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="test.html"><i class="fas fa-calculator"></i> حاسبة الشحن</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">خدماتنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> فروعنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> الشحن الجوى </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> شحن المحيطات </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> شاحنات النقل </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> النقل بالقطار </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> الطرود </a>
+        </li>
+              <li class="nav-item">
+          <a class="nav-link" href="#"> فريق العمل </a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <span><i class="fas fa-envelope"></i></span>  أخر الأخبار
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-user"></i></span> وظائف 
+          </a>
+        </li>
+        <li >
+          <div class="row">
+            <div class="col">
+              <a class="nav-link active" href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link searchGo" href="#"><i class="fas fa-search"></i></a>
+            </div>        
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="king-image">
+      <img src="img-shohnty/image5.jpeg" style="width: 100%;">
+    </section>
+      <!--end nav bar for small screen-->
+                <!--end min header-->
+            <!--**********************-->
+    
+                <!--start all body section-->
+                <!-- start sirves section-->
+    <section class="all-sirves">
+      <div class="blue-part">
+        <div class="container">
+          <div class="about-work">
+            <div class="row " >
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="work-card  ">
+                  <div class="row my-row">
+                    <div class="col-2">
+                      <div class="work-icon">
+                      <i class="fas fa-headphones-alt"></i>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="work-letter">
+                        <h5>مركز الاتصالات</h5>
+                        <p>اتصل بنا مجانا</p>
+                        <p>00-201015283065</p>
+                      </div>
+                    </div>           
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="work-card">
+                  <div class="row my-row">
+                    <div class="col-2">
+                      <div class="work-icon">
+                      <i class="fas fa-history"></i>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="work-letter">
+                        <h5>ساعات العمل</h5>
+                        <p>السبت الى الخميس 8 ص-5 م</p>
+                        <p>الجمعه 9 ص-3 م</p>
+                      </div>
+                    </div>           
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="work-card">
+                  <div class="row my-row">
+                    <div class="col-2">
+                      <div class="work-icon">
+                      <i class="fas fa-street-view"></i>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="work-letter">
+                        <h5>موقعنا</h5>
+                        <p>اتصل بنا مجانا</p>
+                        <p>00-201015283065</p>
+                      </div>
+                    </div>           
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="work-card">
+                  <div class="row my-row">
+                    <div class="col-2">
+                      <div class="work-icon">
+                      <i class="fas fa-headphones-alt"></i>
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <div class="work-letter">
+                        <h5>مركز الاتصالات</h5>
+                        <p>اتصل بنا مجانا</p>
+                        <p>00-201015283065</p>
+                      </div>
+                    </div>           
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <section class="logistic">
+        <div class="all-logistic">
+          <div class="container">
+            <div class="log-sirves">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <div class="logist-text">
+                    <div class="log-largTitle">
+                      <h2>خدماتنا اللوجيستيه</h2>
+                    </div>
+                    <div class="log-pragrraph">
+                      <p>
+                      الخدمات اللوجستية أو ما يعرف بالعربية بفن السوقيات، وهو عبارة عن علم وإدارة تدفق الموادر المختلفة كالبضائع، والطاقة، والمعلومات، والخدمات البشرية المختلفة من منطقة الإنتاج وحتّى منطقة الاستهلاك،
+                      </p>  
+                    </div>
+                    <div class="log-smallTitle">
+                      <h5> وتتلخص خدماتنا اللوجيستيه فى نقطتين رئيسيتين</h5>
+                    </div>
+                    <div class="log-list">
+                      <p>عملية نقل البضائع خلال الجمارك</p>
+                      <p>عملية توصيل الشجنه مع كافة الاجراءات التامينيه وحتى باب شركتك او مصنعك او حتى منزلك  فى خلال الوقت المتفق عليه او اقل ان امكن</p>
+                    </div>
+                    <div class="smallTitle">
+                      <h5> وقد قمنا بالتنسيق مع الكيانات الجمركيه حتى نضمن لك ذلك</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="log-image">
+                    <img src="img-shohnty/image23.jpg" style="max-width: 100%;min-height: 500px">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="allOur-sirves">
+        <div class="our-sirves ">
+          <div class="our-sirvesTitle">
+            <h3>
+            اهم ما يميز <span><img src="img-shohnty/image14.png"></span> فى عمليات الشحن والتخليص الجمركى
+            </h3>
+          </div>
+          <div class="container">
+            <div class="typeOf-sirves">
+              <div class="row">
+                <div class="col-6 col-md-3">
+                  <div class="sirves-card">
+                    <div class="work-icon">
+                      <i class="fas fa-ship"></i>
+                    </div>
+                    <div class="work-letter">
+                      <h6 >الشحن البحري هو خدمة نقل البضائع عن طريق السفن ذات القدرة العالية  </h6>
+                      <p>هناك ما يقرب من 400 خط نقل بحري، تعمل اليوم. تكون الناقلات البحرية ، بشكل أساسي على شكل سفن حاويات وسفن نقل البضائع ، و تنقل حوالي 60 بالمائة من البضائع المنقولة دولياً عن طريق البحر كل عام.</p>
+                      <a href="#" class="btn">عرض المزيد</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="sirves-card">
+                    <div class="work-icon">
+                      <i class="fas fa-road"></i>
+                    </div>
+                    <div class="work-letter">
+                      <h6 >الشحن البري هو خدمة نقل البضائع عن طريق الشاحنات ذات القدرة العالية  </h6>
+                      <p>هناك ما يقرب من 1600 خط نقل بري تعمل اليوم. تكون الناقلات البحرية ، بشكل أساسي على شكل شاحنات حاويات وشاحنات نقل البضائع  و تنقل حوالي 400 بالمائة من البضائع المنقولة دولياً عن طريق البر كل عام.</p>
+                      <a href="#" class="btn">عرض المزيد</a>
+                    </div>    
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="sirves-card">
+                    <div class="work-icon">
+                      <i class="fas fa-ship"></i>
+                    </div>
+                    <div class="work-letter">
+                      <h6 >الشحن البحري هو خدمة نقل البضائع عن طريق السفن ذات القدرة العالية  </h6>
+                      <p>هناك ما يقرب من 400 خط نقل بحري، تعمل اليوم. تكون الناقلات البحرية ، بشكل أساسي على شكل سفن حاويات وسفن نقل البضائع ، و تنقل حوالي 60 بالمائة من البضائع المنقولة دولياً عن طريق البحر كل عام.</p>
+                      <a href="#" class="btn">عرض المزيد</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="sirves-card">
+                    <div class="work-icon">
+                      <i class="fas fa-road"></i>
+                    </div>
+                    <div class="work-letter">
+                      <h6 >الشحن البري هو خدمة نقل البضائع عن طريق الشاحنات ذات القدرة العالية  </h6>
+                      <p>هناك ما يقرب من 1600 خط نقل بري تعمل اليوم. تكون الناقلات البحرية ، بشكل أساسي على شكل شاحنات حاويات وشاحنات نقل البضائع  و تنقل حوالي 400 بالمائة من البضائع المنقولة دولياً عن طريق البر كل عام.</p>
+                      <a href="#" class="btn">عرض المزيد</a>
+                    </div>
+                  </div>    
+                </div>
+              </div>
+            </div> 
+          </div>   
+        </div> 
+      </section>
+          <!--start clints section -->
+          <!--start values section -->
+      <section class="values">
+        <div class="our-values">
+          <div class="container">
+            <div class="numbers rtl">
+              <div class="all-numbers">
+                <div class="row">
+                  <div class="col-6 col-md-3">
+                    <div class="packages-delivered">
+                      <div class="my-number">
+                        <span class="count">575,873</span>
+                      </div>
+                      <div class="packages-titl">
+                        <p>
+                          ميل سنويا
+                        </p>
+                      </div>
+                      <div class="packages-text">
+                        <p>
+                          نعمل على رفع كفاءة العاملين لدينا من خلال التدريب وتمرير الخبره التى تراكمت لدينا منذ نشاءة الشركه  فالتزامنا تجاه العملاء هو سر الثقه فى خدماتنا
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="packages-delivered">
+                      <div class="my-number">
+                        <span class="count">175,271</span>
+                      </div>
+                      <div class="packages-titl">
+                        <p>
+                          طن من البضائع 
+                        </p>
+                      </div>
+                      <div class="packages-text">
+                        <p>
+                          نعمل على رفع كفاءة العاملين لدينا من خلال التدريب وتمرير الخبره التى تراكمت لدينا منذ نشاءة الشركه  فالتزامنا تجاه العملاء هو سر الثقه فى خدماتنا
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 col-md-3">
+                    <div class="packages-delivered">
+                      <div class="my-number">
+                        <span class="count">20,619</span>
+                      </div>
+                      <div class="packages-titl">
+                        <p>
+                          طرود تم تسليمها
+                        </p>
+                      </div>
+                    <div class="packages-text">
+                      <p>
+                        نعمل على رفع كفاءة العاملين لدينا من خلال التدريب وتمرير الخبره التى تراكمت لدينا منذ نشاءة الشركه  فالتزامنا تجاه العملاء هو سر الثقه فى خدماتنا
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-md-3">
+                  <div class="packages-delivered">
+                    <div class="my-number">
+                      <span class="count">42,351</span>
+                    </div>
+                    <div class="packages-titl">
+                      <p>
+                        عملاء راضون
+                      </p>
+                    </div>
+                    <div class="packages-text">
+                      <p>
+                      نعمل على رفع كفاءة العاملين لدينا من خلال التدريب وتمرير الخبره التى تراكمت لدينا منذ نشاءة الشركه  فالتزامنا تجاه العملاء هو سر الثقه فى خدماتنا
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+        <!--end values section -->
+        <!-- start carousel section-->
+    <section class="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/s-2.jpg" class="d-block w-100" alt="flight">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ننقل بضائعك</h5>
+              <h2>الى اى مكان فى العالم</h2>
+              <p> مع شحنتى يمكنك نقل بضائعك حول العالم فى سرعه وامان</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/s-1.jpg" class="d-block w-100" alt="truck">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>معك دائما</h5>
+              <h2>فى اى وقت والى اى مكان</h2>
+              <p>مع شحنتى يمكنك نقل بضائعك حول العالم فى سرعه وامان</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/s-3.jpg" class="d-block w-100" alt="treen">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>حول العالم</h5>
+              <h2>ننقل البطائع وحتى الطرود الصغيره</h2>
+              <p>مع شحنتى يمكنك نقل بضائعك حول العالم فى سرعه وامان</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+        <!-- end carousel section-->
+        <!-- start news section   -->
+
+    <section class="news">
+      <section class="all-news">
+        <div class="container">
+          <div class="work-news">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <div class="work-news-card">
+                  <div class="card" style="width: 100%;margin: 20px auto">
+                    <img src="img-shohnty/image13.png" class="card-img-top" alt="air plan">
+                    <div class="card-body">
+                      <h6 class="card-title">وتستخدم خدمات الشحن البري فى</h6>
+                      <p class="card-text">نحن هنا للاجابه على اسئلتك المتعلقه بالشحن البرى هو نوع من أنواع الشحن المتعارف عليه في دول العالم والتي من خلالها يتم نقل الأغراض من مكان إلى مكان وتقوم بعملية النقل الشاحنات
+                      </p>
+                      <a href="#" class="btn">عرض المزيد</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="work-news-card">
+                  <div class="card" style="width: 100%;margin: 20px auto">
+                    <img src="img-shohnty/image12.jpeg" class="card-img-top" alt="track">
+                    <div class="card-body">
+                      <h6 class="card-title">تضم الشركه فريق عمل متميز من المختصين</h6>
+                      <p class="card-text">نحن هنا للاجابه على اسئلتك المتعلقه بالشحن البرى هو نوع من أنواع الشحن المتعارف عليه في دول العالم والتي من خلالها يتم نقل الأغراض من مكان إلى مكان وتقوم بعملية النقل الشاحنات
+                      </p>
+                      <a href="#" class="btn ">عرض المزيد</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="work-news-card">
+                  <div class="card" style="width:100%;margin: 20px auto">
+                    <img src="img-shohnty/image11.jpg" class="card-img-top" alt="truck">
+                    <div class="card-body">
+                      <h6 class="card-title">تشغيل مستودعات جديده</h6>
+                      <p class="card-text">نحن هنا للاجابه على اسئلتك المتعلقه بالشحن البرى هو نوع من أنواع الشحن المتعارف عليه في دول العالم والتي من خلالها يتم نقل الأغراض من مكان إلى مكان وتقوم بعملية النقل الشاحنات </p>
+                      <a href="#" class="btn">عرض المزيد</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+        <!-- end news section-->
+        <!-- start map location section -->
+
+    <section class="all-map">
+      <div class="map">
+        <div id="googleMap" style="width:100%;height:500px;"></div>
+        <script>
+        function myMap() {
+        var mapProp= {
+          center:new google.maps.LatLng(51.508742,-0.120850),
+          zoom:5,
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASEojG-k9qSYIPtGx9uR26Z3FtBEqym3M&callback=myMap"></script>
+      </div>
+      <div class="all-map-text">
+        <div class="card-btn">
+          <div class="clossCard-btn"><a href="#" class="mapCardCloss">&times;</a></div>
+        </div>
+      <div class="all-mapCard">
+      <div class="map-card">
+        <div class="map-texe">
+          <div class="card-link">
+            <a ><i class="fas fa-history"></i></a>  
+          </div>
+          <h4>ساعات العمل</h4>
+          <p>السبت الى الخميس 8 ص-5 م</p>
+          <p>الجمعه 9 ص-3 م</p>
+        </div>
+      </div>
+        <div class="map-card">
+          <div class="card-btn">
+          <div class="clossCard-btn"><span></span></div>
+          </div>
+          <div class="map-texe">
+            <div class="card-link">
+              <a href="#"><i class="fas fa-street-view"></i></a>  
+            </div>
+            <h4>موقعنا</h4>
+            <p>اتصل بنا مجانا</p>
+            <p>00-201015283065</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        <!-- end map location section -->
+        <!--  start listes linke  -->
+    <section class="linkes">
+      <div class="my-linkes">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 pad-0 mar-0">
+              <div class="lastShear-titl">
+                <div class="shear-titl">
+                  <h4>أخر المشاركات</h4>
+                </div>
+                <div class="lin"></div>
+              </div>
+              <ul class="last-shear">
+                <li>
+                  <div class="myLast-shear">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="lastShear-img"><img src="img/ca.jpg"></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="lastShear-text">
+                          <a href="#">تطوير قطاع الشحن الجوى</a>
+                          <p> 5 أكتوبر ,2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="myLast-shear">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="lastShear-img"><img src="img/cb.jpg"></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="lastShear-text">
+                          <a href="#">شاحنات جديده على الطريق</a>
+                          <p> 10 أغسطس ,2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                  <li>
+                    <div class="myLast-shear">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="lastShear-img"><img src="img/cc.jpg"></div>
+                        </div>
+                        <div class="col-6">
+                          <div class="lastShear-text">
+                            <a href="#">تشغيل مستودعات جديده</a>
+                            <p> 19 مايو ,2020</p>           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="socual-media">
+                  <div class="lastShear-titl">
+                    <div class="shear-titl">
+                      <h4>مواقع التواصل الاجتماعى</h4>
+                    </div>
+                    <div class="lin"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="my-socual">
+                        <ul>
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-twitter"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">https://t.co/pBOc0w30nr</a></p>
+                          </li>
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">https://t.co/pBOc0w30nr</a></p>
+                          </li> 
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="my-socual">
+                        <ul>
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">https://t.co/pBOc0w30nr</a></p>
+                          </li>
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">https://t.co/pBOc0w30nr</a></p></li>
+                          </ul>
+                        </div>
+                      </div>      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="quek-linkes">
+                    <div class="lastShear-titl">
+                      <div class="shear-titl">
+                        <h4>روابط سريعه</h4>
+                      </div>
+                      <div class="lin"></div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="my-quek-linkes">
+                          <ul>
+                          <li>
+                            <a href="index.html">الرئيسيه</a>
+                          </li>
+                          <li>
+                            <a href="#">من نحن</a>
+                          </li>
+
+                          <li>
+                            <a href="#">فريق العمل</a>
+                          </li>
+                          <li>
+                            <a href="#">إتصل بنا</a>
+                          </li>
+                          <li>
+                            <a href="#">وظائف خاليه</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="my-quek-linkes">
+                      <ul>
+                        <li>
+                          <a href="#">النقل الجوى </a>
+                        </li>
+                        <li>
+                          <a href="#"> نقل المحيطات </a>
+                        </li>
+                        <li>
+                          <a href="#">شاحنات النقل</a>
+                        </li>
+                        <li>
+                          <a href="#">النقل بالقطار</a>
+                        </li>
+                        <li>
+                          <a href="#">الطرود</a>
+                        </li>
+                        <li>
+                          <a href="calcuelat.html">حساب التكلفه</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-8">
+                      <img src="img/ocean.png" style="max-width: 100%;">
+                    </div>
+                    <div class="col-4">
+                      <img src="img/vision.png" style="max-width: 100%;">
+                    </div>
+                   </div>
+                </div>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            <!--  start footer  -->
+    <footer>
+      <div class="container">
+        <div class="my-footer">
+          <p>Copyright by Cargo International Inc.<a href="#">@ rights reserved</a> </p>
+        </div>
+      </div>
+    </footer>
+        <!-- end footer  -->
+  </section>
+      <!--  start listes linke  -->
+
+          <!--***********************************************-->
+      <script>
+    $('.count').counterUp({
+      delay: 10,
+      time:1000 
+    });
+    </script> 
+      
+  <script src="js/jquery-1.10.2.js"></script>
+    <!--<script src="js/jquery-3.5.1.slim.min.js"></script>  -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my-jquery.js"></script>
+    <script src="js/my-jquery2.js"></script>
+  
+  </body>
+</html>

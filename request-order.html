@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title>request order</title>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Changa:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link rel="stylesheet" href="my-css/midea-query-style.css">
+    <link rel="stylesheet" href="my-css/bads.css">
+    <link rel="stylesheet" href="jquery.datetimepicker.min.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="my-css/style.css">
+    <link rel="stylesheet" href="my-css/page2-style.css">
+    <link rel="stylesheet" href="my-css/order-styl.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="jquery.datetimepicker.full.js"></script>
+    <style>
+    
+    
+     body {
+
+}
+
+      
+    </style>
+
+  </head>
+  <body>
+<!--    start mian header-->
+    <section class="maine-header">
+      <div class="all-main-header">
+        <div class="main-nav">
+          <div class="top-bar">
+            <div class="container">
+              <div class="row">
+                <div class="col-6">
+                  <nav class="nav">
+                    <a class="nav-link" href="#">
+                      <span><i class="fas fa-envelope"></i></span>  أخر الأخبار
+                    </a>
+                    <a class="nav-link" href="#">
+                      <span><i class="fas fa-user"></i></span> وظائف 
+                    </a>
+                  </nav>
+                </div>
+                <div class="col-6">
+                  <nav class="nav  justify-content-end">
+                    <a class="nav-link active" href="https://www.facebook.com/">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="nav-link" href="https://twitter.com/home">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="nav-link" href="https://myaccount.google.com/profile?pli=1">
+                      <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a class="nav-link" href="https://www.pinterest.com/?autologin=true">
+                      <i class="fab fa-pinterest-p"></i>
+                    </a>
+                    <a class="nav-link searchGo" ><i class="fas fa-search"></i></a>
+                    <div class="top-bar-btn">
+                      <a class="nav-link btn" href="calcuelat.html"><i class="fas fa-calculator"></i> حاسبة الشحن </a>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <!--end top nav icon-->
+                    <!--start search box-->
+          <div class="search-box">
+            <div class="container">
+              <div class="searsh-baxContant">
+                <form class="searshForm">
+                  <input type="text" placeholder="إبحث هنا ...">
+                  <button><i class="fas fa-search"></i></button>
+                </form>
+                <div class="btnSearsh-close">
+                  <div class="btn-close">
+                  <a href="#" class="closs-search">&times;</a>
+                  </div>   
+                </div>
+              </div>
+            </div>
+          </div>
+                  <!--end search box-->
+                  <!--start nav bar for larg screen-->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light  my-nav">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="img/hama-logo.png" style="width: 80px">
+              </a>  
+              <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">الرئيسيه </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">من نحن </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">إتصل بنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">خدماتنا</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> فروعنا </a>
+                  </li>
+                </ul>
+              </div>
+            </div> 
+          </nav>
+        </div>
+          <!--end nav bar for larg screen-->
+      </div>
+    </section>
+            <!--start nav bar for small screen-->
+    <span class="mnue-btn" onclick="openNav()">
+      <i class="fas fa-bars"></i>
+    </span>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a class="navbar-brand" href="#">
+        <img src="img/hama-logo.png" style="width: 80px">
+      </a>
+      <ul class="navbar-nav">                
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">الرئيسيه </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">من نحن </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="calcuelat.html"><i class="fas fa-calculator"></i> حاسبة الشحن</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">خدماتنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> فروعنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> الشحن الجوى </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> شحن المحيطات </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> شاحنات النقل </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> النقل بالقطار </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> الطرود </a>
+        </li>
+              <li class="nav-item">
+          <a class="nav-link" href="#"> فريق العمل </a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+          <span><i class="fas fa-envelope"></i></span>  أخر الأخبار
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            <span><i class="fas fa-user"></i></span> وظائف 
+          </a>
+        </li>
+        <li >
+          <div class="row">
+            <div class="col">
+              <a class="nav-link active" href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+            <div class="col">
+              <a class="nav-link searchGo" href="#"><i class="fas fa-search"></i></a>
+            </div>        
+          </div>
+        </li>
+      </ul>
+    </div>
+      <!--end nav bar for small screen-->
+                <!--end min header-->
+            <!--**********************-->
+    
+                <!--start all body section-->
+    <section class="order-stepper">
+      <div class="allOrder-stepper">
+      <div class="container">
+        <header style="padding-bottom:30px;">
+          <h3 style="margin: 20px 0;">لقد وصلت الى المكان المناسب</h3>
+          <p>من فضلك قم بملئ الاستماره الاتيه لاستكمال  طلب شحنك ,مع العلم بان كل هذه البيانات الزاميه ولن يتم استيفاء طلبك بدونها.</p>
+        </header>
+        <div class="stepwizard">
+          <div class="stepwizard-row setup-panel">
+            <div class="stepwizard-step col-xs-3"> 
+              <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
+              <p><small>بيانات المرسل</small></p>
+            </div>
+            <div class="stepwizard-step col-xs-3"> 
+              <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+              <p><small>بيانات المرسل اليه</small></p>
+            </div>
+            <div class="stepwizard-step col-xs-3"> 
+              <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+              <p><small>بيانات الحموله</small></p>
+            </div>
+            <div class="stepwizard-step col-xs-3"> 
+              <a href="#step-4" type="button" class="btn btn-default btn-circle" disabled="disabled">4</a>
+              <p><small>الدفع</small></p>
+            </div>
+          </div>
+        </div>
+        <form role="form">
+          <div class="panel panel-primary setup-content" id="step-1">
+            <div class="panel-heading">
+              <h3 class="panel-title">المرسل</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label class="control-label">اسم المرسل</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="ادخل اسم المرسل" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">رقم الهويه</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="ادخل رقم الهويه" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">رقم الهاتف</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="ادخل رقم الهاتف" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">العنوان</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder=" ادخل عنوان المرسل" />
+              </div>
+              <div class="form-group">
+                <label  class="control-label">بلد المغادره</label>
+                <select required="required" class="form-control">
+                  <option selected disabled value="">اختر بلد المغادره</option>
+                  <option>البحرين </option>
+                  <option>الجزائر </option>
+                  <option>السعوديه</option>
+                  <option>المغرب</option>
+                  <option>الكويت</option>
+                  <option>تونس</option>
+                  <option>لبنان</option>
+                  <option>قطر</option>
+                  <option>سوريا</option>
+                  <option>العراق</option>
+                  <option>فلسطين</option>
+                  <option>الاردن</option>
+                  <option>دبى</option>
+                  <option>مصر</option>
+                  <option>ليبيا</option>
+                  <option>السودان</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <button class="btn btn-primary nextBtn pull-right" type="button">التالى</button>
+            </div>
+          </div>
+          <div class="panel panel-primary setup-content" id="step-2">
+            <div class="panel-heading">
+              <h3 class="panel-title">بيانات المرسل اليه</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label class="control-label">اسم المرسل اليه</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="ادخل اسم المرسل اليه" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">رقم الهويه</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="ادخل رقم الهويه" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">رقم الهاتف</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder="ادخل رقم الهاتف" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">العنوان</label>
+                <input maxlength="100" type="text" required="required" class="form-control" placeholder=" ادخل عنوان المرسل" />
+              </div>
+              <div class="form-group">
+                <label  class="control-label">بلد الوصول</label>
+                <select required="required" class="form-control">
+                  <option selected disabled value="">اختر بلد الوصول</option>
+                  <option>البحرين </option>
+                  <option>الجزائر </option>
+                  <option>السعوديه</option>
+                  <option>المغرب</option>
+                  <option>الكويت</option>
+                  <option>تونس</option>
+                  <option>لبنان</option>
+                  <option>قطر</option>
+                  <option>سوريا</option>
+                  <option>العراق</option>
+                  <option>فلسطين</option>
+                  <option>الاردن</option>
+                  <option>دبى</option>
+                  <option>مصر</option>
+                  <option>ليبيا</option>
+                  <option>السودان</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+              </div>
+              <button class="btn nextBtn pull-right" type="button">التالى</button>
+            </div>
+          </div>
+          <div class="panel panel-primary setup-content" id="step-3">
+            <div class="panel-heading">
+              <h3 class="panel-title">الحموله</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label  class="control-label">نوع الحموله</label>
+                <select required="required" class="form-control">
+                  <option selected disabled value="">اختر نوع الحموله</option>
+                  <option>خطره </option>
+                  <option>قابل للكسر </option>
+                  <option>مجمده </option>
+                  <option>طرد</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="form-group">
+                <label  class="control-label">الصنف</label>
+                <select required="required" class="form-control">
+                  <option selected disabled value="">اختر الصنف</option>
+                  <option>طعام </option>
+                  <option>اثاثات</option>
+                  <option>تحف</option>
+                  <option>اجهزه الكترونيه</option>
+                  <option>اجهزه كهربيه</option>
+                  <option>جوالات</option>
+                  <option>غير ذلك</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="control-label">الطول</label>
+                <input maxlength="200" type="text" required="required" class="form-control" placeholder="ادخل الطول بالسنتيمتر" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">العرض</label>
+                <input maxlength="200" type="text" required="required" class="form-control" placeholder="ادخل العرض بالسنتيمتر" />
+              </div>
+              <div class="form-group">
+                <label class="control-label">الوزن</label>
+                <input maxlength="200" type="text" required="required" class="form-control"   placeholder="ادخل الوزن بالكيلو جرام" />
+              </div>
+              <button class="btn nextBtn pull-right" type="button">التالى</button>
+            </div>
+          </div>
+          <div class="panel panel-primary setup-content" id="step-4">
+            <div class="panel-heading">
+              <h3 class="panel-title">معلومات الدفع</h3>
+            </div>
+            <div class="panel-body">
+              <div class="form-group">
+                <label  class="control-label">طريقة الدفع</label>
+                <select required="required" class="form-control">
+                  <option selected disabled value="">اختر طريقة الدفع</option>
+                  <option>نقدى </option>
+                  <option>كارت ائتمان </option>
+                  <option>تحويل بنكى</option>
+                  <option>شيك</option> 
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="priceData">
+                <h4>بيانات الفاتوره</h4> 
+                <p>خدمة النقل للمواد المرسله[<span>مخفض جدا</span>]</p>
+                <p>خدمة التوصيل للمكان المناسب[<span>مخفض جدا</span>]</p>
+                <p>خدمات اضافيه[<span>00,000</span>]</p>
+                <p>ضريبة القيمه المضافه[<span>00,000</span>]</p>
+              </div>
+              <button class="btn btn-success pull-right" type="submit">ارسال</button>
+            </div>
+          </div>
+        </form>
+      </div>
+        </div>
+    </section>
+   
+                 <!--  start listes linke  -->
+    <section class="linkes">
+      <div class="my-linkes">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 pad-0 mar-0">
+              <div class="lastShear-titl">
+                <div class="shear-titl">
+                  <h4>أخر المشاركات</h4>
+                </div>
+                <div class="lin"></div>
+              </div>
+              <ul class="last-shear">
+                <li>
+                  <div class="myLast-shear">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="lastShear-img"><img src="img/ca.jpg"></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="lastShear-text">
+                          <a href="#">تطوير قطاع الشحن الجوى</a>
+                          <p> 5 أكتوبر ,2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="myLast-shear">
+                    <div class="row">
+                      <div class="col-4">
+                        <div class="lastShear-img"><img src="img/cb.jpg"></div>
+                      </div>
+                      <div class="col-6">
+                        <div class="lastShear-text">
+                          <a href="#">شاحنات جديده على الطريق</a>
+                          <p> 10 أغسطس ,2020</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                  <li>
+                    <div class="myLast-shear">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="lastShear-img"><img src="img/cc.jpg"></div>
+                        </div>
+                        <div class="col-6">
+                          <div class="lastShear-text">
+                            <a href="#">تشغيل مستودعات جديده</a>
+                            <p> 19 مايو ,2020</p>           
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4">
+                <div class="socual-media">
+                  <div class="lastShear-titl">
+                    <div class="shear-titl">
+                      <h4>تواصل اجتماعى</h4>
+                    </div>
+                    <div class="lin"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="my-socual">
+                        <ul>
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-twitter"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">www.honr.com</a></p>
+                          </li>
+<!--
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-facebook-f"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">www.honr.com</a></p>
+                          </li> 
+-->
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="my-socual">
+                        <ul>
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">www.honr.com</a></p>
+                          </li>
+<!--
+                          <li>
+                            <a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i> @mor.4year</a>
+                            <p>إذا كنت غير متأكدًا من كيفية ظهور نشاطك التجاري الصغير في البحث؟ إليك ما تحتاج إلى معرفته. <a href="#">www.honr.com</a></p></li>
+-->
+                          </ul>
+                        </div>
+                      </div>      
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="quek-linkes">
+                    <div class="lastShear-titl">
+                      <div class="shear-titl">
+                        <h4>روابط سريعه</h4>
+                      </div>
+                      <div class="lin"></div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="my-quek-linkes">
+                          <ul>
+                          <li>
+                            <a href="index.html">الرئيسيه</a>
+                          </li>
+                          <li>
+                            <a href="#">من نحن</a>
+                          </li>
+
+                          <li>
+                            <a href="#">فريق العمل</a>
+                          </li>
+                          <li>
+                            <a href="#">إتصل بنا</a>
+                          </li>
+                          <li>
+                            <a href="#">وظائف خاليه</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="my-quek-linkes">
+                      <ul>
+                        <li>
+                          <a href="#">النقل الجوى </a>
+                        </li>
+                        <li>
+                          <a href="#"> نقل المحيطات </a>
+                        </li>
+                        <li>
+                          <a href="#">شاحنات النقل</a>
+                        </li>
+                        <li>
+                          <a href="#">النقل بالقطار</a>
+                        </li>
+                        <li>
+                          <a href="#">الطرود</a>
+                        </li>
+                        <li>
+                          <a href="#">حساب التكلفه</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-8">
+                      <img src="img/ocean.png" style="max-width: 100%;">
+                    </div>
+                    <div class="col-4">
+                      <img src="img/vision.png" style="max-width: 100%;">
+                    </div>
+                   </div>
+                </div>
+              </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+            <!--  start footer  -->
+    <footer>
+      <div class="container">
+        <div class="my-footer">
+          <p>Copyright by Cargo International.<a href="#">@ rights reserved</a> </p>
+        </div>
+      </div>
+    </footer>
+        <!-- end footer  -->
+  </section>
+      <!--  end listes linke  -->
+
+          <!--***********************************************-->  
+  <script src="js/jquery-1.10.2.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js" integrity="sha512-+/4Q+xH9jXbMNJzNt2eMrYv/Zs2rzr4Bu2thfvzlshZBvH1g+VGP55W8b6xfku0c0KknE7qlbBPhDPrHFbgK4g==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/my-jquery.js"></script>
+  </body>
+
+</html>

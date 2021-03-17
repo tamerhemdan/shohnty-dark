@@ -1,0 +1,107 @@
+/*for responsiv page*/
+@media (max-width: 992px){  /*for hide top bar in small and mediam screen*/
+  
+  .top-bar{
+    display: none;
+  }}
+
+@media (min-width: 992px){
+  
+.navbar-expand-lg .navbar-nav .nav-link {   /*for nav bar linkes on larg screen*/
+  padding-left: 0rem;
+  padding-right: 2.5rem!important;
+}
+}
+@media only screen and (max-width: 1100px){
+  .side-logo,.side-logo-img{
+display: none;
+  }
+  
+  }
+@media only screen and (max-width: 992px){
+  
+.mnue-btn{    /*for hide menu butoon in larg screen*/
+  display: block;
+  }
+}
+@media screen and (max-height: 450px) {   /*for responsiv sidenav in small and mediam screen*/
+.sidenav {padding-top: 15px;} 
+.sidenav a {font-size: 18px;}
+}
+@media only screen and (max-width: 522px){    /*for responsiv header butoon in small screen*/
+  .title-btn{
+  width: 280px;
+}
+    .btn-sign,.btn-signA{
+  width: 125px;
+  }
+  .ourFamous-clients img{
+    max-width: 50px;
+  }
+}
+@media only screen and (max-width: 992px){    /*for header title font size in mediam screen*/
+.my-header h1{
+  font-size: 3rem;
+}
+  .my-header h2{
+  font-size: 1.5rem;
+}
+  .all-titl{
+  padding-top:10rem;
+}
+
+}
+@media only screen and (max-width: 522px){   /*for header title font size in small screen*/
+.my-header h1{  
+  font-size: 1.8rem;
+}
+  .my-header h2{
+  font-size: 1.2rem;
+}
+}
+@media (max-width: 992px){   /*for hide truck image in small and mediam screen*/
+.sirves-image {
+  display: none;
+}
+  .my-nav{
+    direction: ltr;
+  }
+}
+@media only screen and (max-width: 522px){    /*for sirves card button padding in small screen*/
+ .sirves-card .btn{
+   padding:0.175rem 1rem;
+}
+  .col-6{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  }
+
+@media (max-width: 992px){    /*for responsiv clints section in small and mediam screen*/
+.clints {
+  margin-top: 0;
+  }
+}
+@media (max-width: 992px){    /*for hide forcrift image in small and mediam screen*/
+.values-image{
+  display: none;
+}
+}
+@media only screen and (max-width: 522px){    /*for my number font size in small screen*/
+  .my-number span{
+  font-size:2rem;
+}
+  .all-formes{
+    flex-direction: column-reverse;
+  }
+  }
+@media only screen and (max-width: 522px){    /*for responsiv clolum padding in small screen*/
+  .col-6{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  }
+@media only screen and (max-width: 522px){    /*for footer font size in small screen*/
+  footer p{
+ font-size: .6rem;
+  }
